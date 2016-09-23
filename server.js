@@ -10,7 +10,7 @@ app.get('/', function (req, res) {
 });
 
 app.get('/test1', function (req, res) {
-  res.send('URL Sucessfully Added for test1');
+  res.sendFile(path.join(__dirname, 'ui', 'test1.html'));
 });
 
 app.get('/test2', function (req, res) {
