@@ -14,11 +14,11 @@ app.get('/test1', function (req, res) {
 });
 
 app.get('/test2', function (req, res) {
-  res.send('URL Sucessfully Added for test2');
+  res.sendFile(path.join(__dirname, 'ui', 'test2.html'));
 });
 
 app.get('/test3', function (req, res) {
-  res.send('URL Sucessfully Added for test3');
+  res.sendFile(path.join(__dirname, 'ui', 'test3.html'));
 });
 
 app.get('/ui/style.css', function (req, res) {
