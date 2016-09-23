@@ -6,17 +6,17 @@ var app = express();
 app.use(morgan('combined'));
 
 var tests={
-test1 :{
+`test1 :{
     title:"Test One | Ashique",
     heading:"Test One",
     content:"<p>Test One Sucessfully Completed!!!</p>"
 },
-test2:{
+`test2:{
     title:"Test Two | Ashique",
     heading:"Test Two",
     content:"<p>Test Two Sucessfully Completed!!!</p>"
 },
-test3:{
+`test3:{
     title:"Test Three | Ashique",
     heading:"Test Three",
     content:"<p>Test Three Sucessfully Completed!!!</p>"
