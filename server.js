@@ -57,7 +57,7 @@ app.get('/', function (req, res) {
 
 app.get('/:testname', function (req, res) {
    var testname=req.params.testname;
-  res.sendFile(createhtml(tests[testname]));
+  res.send(createhtml(tests[testname]));
 });
 
 
