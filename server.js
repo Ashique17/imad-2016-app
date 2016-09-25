@@ -5,7 +5,7 @@ var path = require('path');
 var app = express();
 app.use(morgan('combined'));
 
-var tests={
+/*var tests={
 `test1`:{
     title:`Test One | Ashique`,
     heading:`Test One`,
@@ -49,17 +49,17 @@ var htmltemplate =`
     </body>
 </html>`;
 return createhtml;
-}
+}*/
     
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 
-app.get('/:testname', function (req, res) {
+/*app.get('/:testname', function (req, res) {
    var testname=req.params.testname;
   res.send(createhtml(tests[testname]));
 });
-
+*/
 
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
