@@ -52,7 +52,7 @@ return createhtml;
 }*/
     
 app.get('/', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'index.html'));
+  res.sendFile(path.join(__dirname, 'MyKitchen', 'index.html'));
 });
 
 /*app.get('/:testname', function (req, res) {
