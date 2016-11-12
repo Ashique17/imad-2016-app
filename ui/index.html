@@ -1,20 +1,283 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
     <head>
-        <link href="/ui/style.css" rel="stylesheet" />
+        <title>MyKitchen | Home</title>
+        <link rel="icon" href="images/knife_pork-128.ico">
+        <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="js/jquery.min.js"></script>
+        <!-- Custom Theme files -->
+        <!--theme-style-->
+        <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />	
+        <!--//theme-style-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="keywords" content="Cookery Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+              Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+        <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+        <!---->
+        <link href='//fonts.googleapis.com/css?family=Raleway:400,200,100,300,500,600,700,800,900' rel='stylesheet' type='text/css'>
+        <link href='//fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700' rel='stylesheet' type='text/css'>
+        <!-- start-smoth-scrolling -->
+        <script type="text/javascript" src="js/move-top.js"></script>
+        <script type="text/javascript" src="js/easing.js"></script>
+        <script type="text/javascript">
+            jQuery(document).ready(function ($) {
+                $(".scroll").click(function (event) {
+                    event.preventDefault();
+                    $('html,body').animate({scrollTop: $(this.hash).offset().top}, 1000);
+                });
+            });
+        </script>
+        <!-- start-smoth-scrolling -->
+        <link href="css/styles.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/component.css" />
+        <!-- animation-effect -->
+        <link href="css/animate.min.css" rel="stylesheet"> 
+        <script src="js/wow.min.js"></script>
+        <script>
+                            new WOW().init();
+        </script>
+        <!-- //animation-effect -->
+
     </head>
     <body>
-        <div class="center" id="img">
-            <img src="/ui/madi.png" class="img-medium"/>
+        <div class="header">
+            <div class="container">
+                <div class="logo animated wow pulse" data-wow-duration="1000ms" data-wow-delay="500ms">
+                    <h1><a href="index.html"><span>MyK</span>itchen</a></h1>
+                </div>
+                <div class="nav-icon">		
+                    <a href="#" class="navicon"></a>
+                    <div class="toggle">
+                        <ul class="toggle-menu">
+                            <li><a class="active" href="index.html">Home</a></li>
+                            <li><a href="#1">About Us</a></li>
+                            <li><a  href="blog.html">Blog</a></li>
+                            <li><a  href="events.html">Events</a></li>
+                            <li><a  href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                    <script>
+                        $('.navicon').on('click', function (e) {
+                            e.preventDefault();
+                            $(this).toggleClass('navicon--active');
+                            $('.toggle').toggleClass('toggle--active');
+                        });
+                    </script>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <!-- start search-->	
+            <div class="banner">
+                <p class="animated wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="500ms"><b>My Kitchen My Taste My World</b></p>
+                <label></label>
+                <h4 class="animated wow fadeInTop" data-wow-duration="1000ms" data-wow-delay="500ms">Hello And Welcome To MyKitchen !!!</h4>
+                <a class="scroll down" href="#content-down"><img src="images/down.png" alt=""></a>
+            </div>
         </div>
-        <br>
-        <div class="center text-big bold" id="txt">
-            Hi! I am Ashique.
+        <!--content-->
+        <div class="content" id="content-down">
+            <div class="content-top-top" id="1">
+                <div class="container">
+                    <div class="content-top">
+                        <div class="col-md-4 content-left animated wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="500ms">
+                            <h3>About</h3>
+                            <label><i class="glyphicon glyphicon-menu-up"></i></label>
+                            <span>The World of Home Chefs</span>
+                        </div>
+                        <div class="col-md-8 content-right animated wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="500ms">
+                            <p>MyKitchen  is a world of space for the passionate home chefs. MyKitchen showcase an platform for those who love cooking and share their unique receipes with others. MyKitchen allows to share chef's unique and authentic tastes with others who are already mouth watered to taste it. Its is a world full of passionate chefs and their fans who need to know their unique receipes.</p>
+                        </div>
+                        <div class="clearfix"> </div>
+                    </div>
+                    <div class="content-mid">
+
+                        <div class="col-md-4 food-grid animated wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="500ms">
+                            <div class=" hover-fold">
+                                <h4>My Kitchen</h4>
+                                <div class="top">
+                                    <div class="front face"></div>
+                                    <div class="back face">
+                                        <p><b>MyKitchen</b> is a world of space for the passionate home chefs.MyKitchen showcase an platform for those who love cooking and share their unique receipes with others.</p>
+                                    </div>
+                                </div>
+                                <div class="bottom"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 food-grid animated wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="500ms">
+                            <div class=" hover-fold">
+                                <h4>My Taste</h4>
+                                <div class="top">
+                                    <div class="front face front1"></div>
+                                    <div class="back face">
+                                        <p><b>MyKitchen</b> allows to share chef's unique and authentic tastes with others who are already mouth watered to taste it.</p>
+                                    </div>
+                                </div>
+                                <div class="bottom bottom1"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 food-grid animated wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="500ms">
+                            <div class=" hover-fold">
+                                <h4>My World</h4>
+                                <div class="top">
+                                    <div class="front face front2"></div>
+                                    <div class="back face">
+                                        <p><b>MyKitchen</b> is a world full of passionate chefs and their fans who need to know their unique receipes.</p>
+                                    </div>
+                                </div>
+                                <div class="bottom bottom2"></div>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+            </div>
+            <!--services-->
+            <div class="services">
+                <div class="container">
+                    <div class="services-top">		
+                        <div class="col-md-8 services-right animated wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="500ms">
+                            <p><b>MyKitchen</b> was a dream idea of <b>Mr. Ashique Siddique</b> who had made that dream to real. He is the Master Mind behind the MyKitchen and he made this platform to meet all the home chefs all around the world.</p>
+                        </div>
+                        <div class="col-md-4 services-left animated wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="500ms">
+                            <h3>Meet the Man Behind</h3>
+                            <label><i class="glyphicon glyphicon-menu-up"></i></label>
+                            <span>My Kitchen My Taste My World</span>
+                        </div>
+                        <div class="clearfix"> </div>
+                    </div>
+                    <div class="service-top">
+                        <div class="col-md-5 service-top animated wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="500ms" style="text-align: center">
+                            <h3> Hi all, This is Ashique Siddique. I have create this <b>MyKitchen</b> to all passionate home chefs around the world. Please join the world of home chefs and make this a victory</h3>
+                        </div>
+                        <div class="col-md-7 service-bottom animated wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="500ms" style="text-align: center">
+                            <h3>Dear Internship Team, I would like to bring your kind attention that i havent given access to database. Because of that i cant create a web app with database. I hope you will understand the situation.</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--//services-->
+            <!--news-->
+            <div class="content-top-top">
+                <div class="container">
+                    <div class="content-top">
+                        <div class="col-md-4 content-left animated wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="500ms">
+                            <h3>News</h3>
+                            <label><i class="glyphicon glyphicon-menu-up"></i></label>
+                            <span>My Kitchen My Taste My World</span>
+                        </div>
+                        <div class="col-md-8 content-right animated wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="500ms">
+                            <p></p>
+                        </div>
+                        <div class="clearfix"> </div>
+                    </div>
+                    <div class="news-bottom">
+                        <div class="news-bot">
+                            <div class="col-md-6 news-bottom1 animated wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="500ms">
+                                <a href="single.html">
+                                    <div class="content-item">
+                                        <div class="overlay"></div>
+                                        <div class=" news-bottom2">
+                                            <ul class="grid-news">
+                                                <li><span><i class="glyphicon glyphicon-calendar"> </i>08.09.2016</span><b>/</b></li>
+                                                <li><span><i class="glyphicon glyphicon-comment"> </i>5 Comment</span><b>/</b></li>
+                                                <li><span><i class="glyphicon glyphicon-share"> </i>Share</span></li>
+                                            </ul>
+                                            <p>Dry Dragon Chicken with Raw Vegetables</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-6 news-bottom1 animated wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="500ms">
+                                <a href="single.html">
+                                    <div class="content-item content-item1">
+                                        <div class="overlay"></div>
+                                        <div class=" news-bottom2">
+                                            <ul class="grid-news">
+                                                <li><span><i class="glyphicon glyphicon-calendar"> </i>10.05.2016</span><b>/</b></li>
+                                                <li><span><i class="glyphicon glyphicon-comment"> </i>10 Comment</span><b>/</b></li>
+                                                <li><span><i class="glyphicon glyphicon-share"> </i>Share</span></li>
+                                            </ul>
+                                            <p>Chilly Pepper Chicken</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="clearfix"> </div>
+                        </div>
+                        <div class="news-bot">
+                            <div class="col-md-6 news-bottom1">
+                                <a href="single.html">
+                                    <div class="content-item content-item2 animated wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="500ms">
+                                        <div class="overlay"></div>
+                                        <div class=" news-bottom2">
+                                            <ul class="grid-news">
+                                                <li><span><i class="glyphicon glyphicon-calendar"> </i>10.10.2016</span><b>/</b></li>
+                                                <li><span><i class="glyphicon glyphicon-comment"> </i>3 Comment</span><b>/</b></li>
+                                                <li><span><i class="glyphicon glyphicon-share"> </i>Share</span></li>
+                                            </ul>
+                                            <p>Crispy Cookies with Marshallows</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-6 news-bottom1 animated wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="500ms">
+                                <a href="single.html">
+                                    <div class="content-item content-item3">
+                                        <div class="overlay"></div>
+                                        <div class=" news-bottom2">
+                                            <ul class="grid-news">
+                                                <li><span><i class="glyphicon glyphicon-calendar"> </i>05.11.2016</span><b>/</b></li>
+                                                <li><span><i class="glyphicon glyphicon-comment"> </i>3 Comment</span><b>/</b></li>
+                                                <li><span><i class="glyphicon glyphicon-share"> </i>Share</span></li>
+                                            </ul>
+                                            <p>Chettinad Chicken with Spicy Masala</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="clearfix"> </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!--//news-->
         </div>
-        <script>
-            alert('Do you Want to Continue?');
-        </script>
-        <script type="text/javascript" src="/ui/main.js">
-        </script>
+        <!--footer-->
+        <div class="footer">
+            <div class="container" style="height: 200px">
+                <div class="footer-head">
+                    <div class="col-md-8 footer-top animated wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="500ms">
+                        <ul class=" in">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a  href="#1">About Us</a></li>
+                            <li><a  href="blog.html">Blog</a></li>
+                            <li><a  href="events.html">Events</a></li>
+                            <li><a  href="contact.html">Contact</a></li>
+                        </ul>					
+                        <span>My Kitchen My Taste My World</span>
+                    </div>
+                    <div class="col-md-4 footer-bottom  animated wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="500ms">
+                        <h2>Follow Us</h2>
+                        <label><i class="glyphicon glyphicon-menu-up"></i></label>
+                        <p>Catch us by following on social media by clicking below icons</p>
+                        <ul class="social-ic">
+                            <li><a href="#"><i></i></a></li>
+                            <li><a href="#"><i class="ic"></i></a></li>
+                            <li><a href="#"><i class="ic1"></i></a></li>
+                            <li><a href="#"><i class="ic2"></i></a></li>
+                            <li><a href="#"><i class="ic3"></i></a></li>
+                        </ul>
+
+                    </div>
+                    <div class="clearfix"> </div>
+
+                </div>
+                <p class="footer-class animated wow bounce" data-wow-duration="1000ms" data-wow-delay="500ms">&copy; 2016 MyKitchen . All Rights Reserved</p>
+            </div>
+        </div>		
+        <!--//footer-->
     </body>
 </html>
