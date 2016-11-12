@@ -16,7 +16,7 @@ app.get('/', function (req, res) {
 */
 
 app.get('/MyKitchen/css/style.css', function (req, res) {
-  res.sendFile(path.join(__dirname, 'css', 'style.css'));
+  res.sendFile(path.join(__dirname, '/css', 'style.css'));
 });
 
 app.get('/ui/main.js', function (req, res) {
